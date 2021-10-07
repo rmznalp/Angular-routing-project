@@ -55,7 +55,7 @@
 
         <div class="row">
           <div class="col-md-4 offset-md-2">
-            <button class="btn btn-primary mr-3"
+            <button class="mr-3 btn btn-primary"
                     type="submit"
                     style="width:80px"
                     [disabled]="!loginForm.valid">
@@ -63,7 +63,8 @@
             </button>
             <button class="btn btn-outline-secondary"
                     type="button"
-                    style="width:80px">
+                    style="width:80px"
+                    [routerLink]="['/welcome']">
               Cancel
             </button>
           </div>
